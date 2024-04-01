@@ -10,9 +10,8 @@ const Header = () => {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <div className={cx('logo')}>
-                    <img src={images.logo} alt="TikTok"></img>
-                </div>
+                <img src={images.logo} alt="TikTok"></img>
+
                 <div className={cx('search')}>
                     <input placeholder="Search accounts and videos" spellCheck={false} />
 
